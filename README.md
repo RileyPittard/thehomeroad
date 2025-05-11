@@ -13,13 +13,21 @@ This is the official single-page website for The Home Road, an acoustic cover ba
 ## Folder Structure
 
 / (root)
+
 │
+
 ├── index.html
+
 ├── style.css
+
 ├── media/
+
 │   ├── 
+
 │   └── 
+
 ├── CNAME
+
 └── README.md
 
 ## Hosting
