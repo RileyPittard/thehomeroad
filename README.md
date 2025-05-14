@@ -12,8 +12,7 @@ This is the official single-page website for The Home Road, an acoustic cover ba
 
 ## Folder Structure
 
-```
-/ (root)
+```plaintext
 │
 ├── index.html
 ├── style.css
