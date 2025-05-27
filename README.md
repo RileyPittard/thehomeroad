@@ -1,5 +1,7 @@
 # The Home Road
 
+## This branch, *under-constr*, is used for the live temporary site showing "Under Construction"
+
 This is the official single-page website for The Home Road, an acoustic cover band performing in and around Ballarat (Victoria, Australia).
 
 ## Features
