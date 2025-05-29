@@ -46,21 +46,22 @@
       margin: 1rem 0;
     }
 
-    .socials a {
-    color: #3399ff;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin: 0 12px;
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
-  }
+    .socials {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
 
-    .socials a:hover {
-    color: #1a75d1;
-    text-decoration: underline;
-  }
+    .socials img.social-icon {
+      width: 36px;
+      height: 36px;
+      transition: transform 0.2s ease-in-out;
+    }
 
-
+    .socials img.social-icon:hover {
+      transform: scale(1.15);
+    }
 
     footer {
       font-size: 0.75em;
@@ -92,9 +93,15 @@
     <p>In the meantime, check out our socials:</p>
 
     <div class="socials">
-      <a href="https://instagram.com/homeroadacoustic">Instagram</a>
-      <a href="https://tiktok.com/@thehomeroad">TikTok</a>
-      <a href="https://facebook.com/people/The-Home-Road/61576218927281">Facebook</a>
+      <a href="https://instagram.com/homeroadacoustic" target="_blank">
+        <img src="media/social/Instagram_icon.png" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://tiktok.com/@thehomeroad" target="_blank">
+        <img src="media/social/Tiktok_icon.svg" alt="TikTok" class="social-icon">
+      </a>
+      <a href="https://facebook.com/people/The-Home-Road/61576218927281" target="_blank">
+        <img src="media/social/2021_Facebook_icon.svg" alt="Facebook" class="social-icon">
+      </a>
     </div>
   </main>
 
